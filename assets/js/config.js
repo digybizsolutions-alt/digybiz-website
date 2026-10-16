@@ -5,7 +5,7 @@
 window.DIGYBIZ_CONFIG = {
   // Google Apps Script Web App URL (see apps-script/Code.gs and README.md).
   // It looks like: https://script.google.com/macros/s/XXXXXXXX/exec
-  SCRIPT_URL: "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE",
+  SCRIPT_URL: "https://script.google.com/macros/s/AKfycbyh6bPndHaZ5iS9Vp_ZNmobr4WvKipsJYtb4h_lOAqwRIWY8rEMtt8Mw3_bxoKuB_Sb/exec",
 
   // WhatsApp number with country code, digits only (no +, spaces or dashes).
   WHATSAPP_NUMBER: "918778313419",
