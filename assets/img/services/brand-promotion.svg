@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1d45"/><stop offset="1" stop-color="#060f22"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#9B00FF" stop-opacity=".4"/><stop offset="1" stop-color="#9B00FF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="m" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00E5FF"/><stop offset=".55" stop-color="#064DFF"/><stop offset="1" stop-color="#9B00FF"/></linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b04dff"/><stop offset="1" stop-color="#064DFF"/></linearGradient>
+    <style>text{font-family:Manrope,Inter,Arial,sans-serif}</style>
+  </defs>
+  <rect width="480" height="300" fill="url(#bg)"/>
+  <circle cx="190" cy="150" r="170" fill="url(#glow)"/>
+
+  <!-- megaphone -->
+  <g transform="rotate(-12 150 150)">
+    <rect x="72" y="126" width="40" height="52" rx="10" fill="#064DFF"/>
+    <path d="M110 128L206 82V222L110 176Z" fill="url(#m)"/>
+    <ellipse cx="206" cy="152" rx="12" ry="70" fill="#00E5FF" opacity=".9"/>
+    <path d="M92 176l10 40h20l-6-40z" fill="#2f5bff"/>
+  </g>
+  <!-- sound waves -->
+  <g fill="none" stroke="#00E5FF" stroke-width="5" stroke-linecap="round">
+    <path d="M238 92a90 90 0 0 1 12 92" opacity=".9"/>
+    <path d="M262 74a118 118 0 0 1 16 128" opacity=".55"/>
+    <path d="M286 58a146 146 0 0 1 20 162" opacity=".3"/>
+  </g>
+
+  <!-- brand badge -->
+  <g transform="translate(372 92)">
+    <circle r="54" fill="#9B00FF" opacity=".15"/>
+    <circle r="42" fill="url(#b)"/>
+    <circle r="42" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="2"/>
+    <path d="M0 -22L5.3 -7.3 20.9 -6.8 8.6 2.8 12.9 17.8 0 9 -12.9 17.8 -8.6 2.8 -20.9 -6.8 -5.3 -7.3Z" fill="#fff"/>
+  </g>
+
+  <!-- audience card -->
+  <g transform="translate(320 176)">
+    <rect width="138" height="96" rx="16" fill="#0b1835" stroke="#2a3f7a"/>
+    <circle cx="26" cy="30" r="13" fill="#00E5FF" stroke="#0b1835" stroke-width="3"/>
+    <circle cx="46" cy="30" r="13" fill="#2f6bff" stroke="#0b1835" stroke-width="3"/>
+    <circle cx="66" cy="30" r="13" fill="#b36bff" stroke="#0b1835" stroke-width="3"/>
+    <circle cx="86" cy="30" r="13" fill="#ff4d7d" stroke="#0b1835" stroke-width="3"/>
+    <text x="104" y="35" font-size="14" font-weight="800" fill="#fff">+</text>
+    <text x="16" y="62" font-size="10" font-weight="700" fill="#9fb0d3">AWARENESS</text>
+    <polyline points="16,84 44,76 70,79 96,66 122,56" fill="none" stroke="#19c25a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- floating hearts -->
+  <path d="M300 268c-10-7-7-16 0-10.5 7-5.5 10 3.5 0 10.5z" fill="#ff4d7d"/>
+  <path d="M270 40c-7-5-5-11 0-7.5 5-3.5 7 2.5 0 7.5z" fill="#ff4d7d" opacity=".7"/>
+  <circle cx="58" cy="60" r="6" fill="#00E5FF" opacity=".6"/>
+  <circle cx="90" cy="250" r="4" fill="#b36bff" opacity=".7"/>
+</svg>

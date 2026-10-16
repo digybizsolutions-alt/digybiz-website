@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1d45"/><stop offset="1" stop-color="#060f22"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#9B00FF" stop-opacity=".35"/><stop offset="1" stop-color="#9B00FF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#064DFF"/><stop offset=".6" stop-color="#5a1fd1"/><stop offset="1" stop-color="#9B00FF"/></linearGradient>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#b04dff"/></linearGradient>
+    <style>text{font-family:Manrope,Inter,Arial,sans-serif}</style>
+  </defs>
+  <rect width="480" height="300" fill="url(#bg)"/>
+  <circle cx="160" cy="150" r="170" fill="url(#glow)"/>
+
+  <!-- promo poster -->
+  <g transform="rotate(-4 145 150)">
+    <rect x="58" y="34" width="174" height="234" rx="18" fill="url(#p)"/>
+    <circle cx="200" cy="66" r="40" fill="#00E5FF" opacity=".25"/>
+    <rect x="76" y="54" width="86" height="20" rx="10" fill="#fff" opacity=".18"/>
+    <text x="119" y="68" text-anchor="middle" font-size="9" font-weight="800" fill="#fff" letter-spacing="1">LIMITED OFFER</text>
+    <text x="76" y="126" font-size="42" font-weight="800" fill="#fff">50%</text>
+    <text x="78" y="158" font-size="28" font-weight="800" fill="#00E5FF">OFF</text>
+    <rect x="78" y="176" width="120" height="6" rx="3" fill="#fff" opacity=".7"/>
+    <rect x="78" y="188" width="90" height="6" rx="3" fill="#fff" opacity=".5"/>
+    <rect x="78" y="214" width="96" height="30" rx="15" fill="#fff"/>
+    <text x="126" y="233" text-anchor="middle" font-size="11" font-weight="800" fill="#064DFF">Order Now</text>
+  </g>
+
+  <!-- copy document -->
+  <rect x="262" y="58" width="178" height="190" rx="16" fill="#0b1835" stroke="#2a3f7a" stroke-width="2"/>
+  <text x="280" y="102" font-size="34" font-weight="800" fill="url(#t)">Aa</text>
+  <text x="404" y="98" font-size="44" font-weight="800" fill="#00E5FF" opacity=".5">&#8221;</text>
+  <rect x="280" y="120" width="140" height="8" rx="4" fill="#cfd9f2"/>
+  <rect x="280" y="136" width="118" height="8" rx="4" fill="#cfd9f2"/>
+  <rect x="276" y="154" width="128" height="16" rx="5" fill="#00E5FF" opacity=".2"/>
+  <rect x="280" y="158" width="118" height="8" rx="4" fill="#00E5FF"/>
+  <rect x="280" y="178" width="132" height="6" rx="3" fill="#5c6f99"/>
+  <rect x="280" y="192" width="100" height="6" rx="3" fill="#5c6f99"/>
+  <rect x="280" y="206" width="116" height="6" rx="3" fill="#5c6f99"/>
+
+  <!-- pen -->
+  <g transform="translate(420 236) rotate(40)">
+    <rect x="-7" y="-78" width="14" height="60" rx="4" fill="#9B00FF"/>
+    <rect x="-7" y="-30" width="14" height="10" fill="#b36bff"/>
+    <path d="M-7 -18H7L0 2z" fill="#00E5FF"/>
+  </g>
+</svg>

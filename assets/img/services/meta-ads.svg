@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1d45"/><stop offset="1" stop-color="#060f22"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#064DFF" stop-opacity=".55"/><stop offset="1" stop-color="#064DFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b04dff"/><stop offset=".6" stop-color="#2f5bff"/><stop offset="1" stop-color="#00E5FF"/></linearGradient>
+    <style>text{font-family:Manrope,Inter,Arial,sans-serif}</style>
+  </defs>
+  <rect width="480" height="300" fill="url(#bg)"/>
+  <circle cx="240" cy="150" r="170" fill="url(#glow)"/>
+
+  <!-- phone -->
+  <rect x="178" y="22" width="124" height="262" rx="24" fill="#0a1530" stroke="#2a3f7a" stroke-width="3"/>
+  <rect x="188" y="38" width="104" height="232" rx="15" fill="#0e1d44"/>
+  <rect x="222" y="28" width="36" height="5" rx="2.5" fill="#2a3f7a"/>
+  <!-- post header -->
+  <circle cx="202" cy="56" r="8" fill="url(#ad)"/>
+  <rect x="215" y="50" width="46" height="5" rx="2.5" fill="#cfd9f2"/>
+  <text x="215" y="66" font-size="7.5" fill="#9fb0d3">Sponsored</text>
+  <!-- ad image -->
+  <rect x="194" y="76" width="92" height="92" rx="9" fill="url(#ad)"/>
+  <circle cx="262" cy="96" r="12" fill="#fff" opacity=".25"/>
+  <text x="240" y="126" text-anchor="middle" font-size="20" font-weight="800" fill="#fff">SALE</text>
+  <text x="240" y="143" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" opacity=".9">THIS WEEK ONLY</text>
+  <!-- caption + CTA -->
+  <rect x="194" y="176" width="80" height="5" rx="2.5" fill="#5c6f99"/>
+  <rect x="194" y="186" width="58" height="5" rx="2.5" fill="#5c6f99"/>
+  <rect x="194" y="200" width="92" height="24" rx="12" fill="#064DFF"/>
+  <text x="240" y="216" text-anchor="middle" font-size="10" font-weight="800" fill="#fff">Shop Now</text>
+  <!-- reactions -->
+  <path d="M202 244c-7-5-5-11 0-7.5 5-3.5 7 2.5 0 7.5z" fill="#ff4d7d"/>
+  <circle cx="216" cy="240" r="5.5" fill="#2f6bff"/>
+  <rect x="228" y="237" width="40" height="5" rx="2.5" fill="#5c6f99"/>
+
+  <!-- floating heart -->
+  <g transform="translate(110 92)">
+    <circle r="30" fill="#ff4d7d" opacity=".18"/>
+    <circle r="22" fill="#ff4d7d"/>
+    <path d="M0 9C-14 -1 -10 -13 0 -6 10 -13 14 -1 0 9z" fill="#fff"/>
+  </g>
+  <!-- floating megaphone -->
+  <g transform="translate(108 206)">
+    <circle r="30" fill="#00E5FF" opacity=".15"/>
+    <circle r="22" fill="#0b1835" stroke="#00E5FF" stroke-width="2"/>
+    <path d="M-11 -5h6l12-8v26l-12-8h-6z" fill="#00E5FF"/>
+    <path d="M11 -5a7 7 0 0 1 0 10" stroke="#00E5FF" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- results card -->
+  <g transform="translate(330 96)">
+    <rect width="118" height="104" rx="16" fill="#0b1835" stroke="#2a3f7a"/>
+    <text x="14" y="24" font-size="10" font-weight="700" fill="#9fb0d3">AD RESULTS</text>
+    <polyline points="16,84 40,70 62,74 84,52 104,38" fill="none" stroke="#00E5FF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="104" cy="38" r="5" fill="#00E5FF"/>
+    <path d="M16 90h88" stroke="#2a3f7a" stroke-width="2"/>
+  </g>
+</svg>
