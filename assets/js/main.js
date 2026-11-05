@@ -418,6 +418,12 @@
       .then(function (res) { return res.json(); })
       .then(function (json) {
         if (json && json.result === "success") {
+            // Analytics: tell GTM a lead was submitted (no personal data sent)
+             window.dataLayer = window.dataLayer || [];
+             window.dataLayer.push({
+               event: "lead_submit",
+               form_source: form.getAttribute("data-source") || ""
+             });
           showSuccess(form, form.elements.name.value.trim());
         } else {
           throw new Error((json && json.message) || "Unknown error");
